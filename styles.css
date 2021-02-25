@@ -1,0 +1,40 @@
+p, a, label, h1, h2, h3 {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+input {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submit {
+  background: #B9DFFF;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow:none;
+  font-size: 15px;
+}
+
+.submit:hover {
+  background: #016ABC;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow:none;
+  font-size: 14px;
+}

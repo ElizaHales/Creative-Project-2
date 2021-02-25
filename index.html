@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lab 2</title>
   <link rel="stylesheet" href="/styles.css">
 </head>
@@ -10,10 +10,24 @@
 <body>
 
   <h1>Lab 2</h1>
+<form>
+  <div><label>Enter a U.S. city: </label>
+  <input id="weatherInput" type="text"></input>
+  <input id="weatherSubmit" class="submit" type="submit" value="Submit"></input></div>
+</form>
+
+<div id="weatherResults">
+</div>
+
+<div id="forecastResults">
+</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
   <script text="type/javascript" src="/script.js">
   </script>
+
+  <hr><br>
+  <a style="font-size: 15px" href="https://github.com/BYU-CS-260-Winter-2021/lab-2-weather-app-ElizaHales">GitHub Repository for Lab 2</a>
 
 </body>
 
